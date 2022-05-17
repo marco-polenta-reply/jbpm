@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+    <artifactId>fmk00_jbpm-test</artifactId>
+    <groupId>it.bbpm.fmk00.jbpm.test</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+    <artifactId>fmk00_jbpm-test-kjar</artifactId>
+
+    <name>fmk00_jbpm-test Back-End Core KJAR project</name>
+    <packaging>kjar</packaging>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.kie</groupId>
+                <artifactId>kie-maven-plugin</artifactId>
+                <version>${version.org.kie}</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
